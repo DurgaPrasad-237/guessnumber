@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2 class="heading">Guessing Game</h2>
+        <div class="nani">
+
+              <div class="firstdiv">
+                <img src="first.png" class="im">
+                <p id="score">Attempts</p>
+                
+              </div>
+
+              <div class="thirddiv">
+                    <p id="won"></p><br>
+                    <button class="result" onclick="result()">Result</button>
+              </div>
+              
+              <div class="seconddiv">
+                <img src="images.png" class="im2">
+                <p id="score2">Attempts:</p>
+              </div>
+
+              <div class="nameinp">
+                <form >
+                  <input id="inputn1" type="text" name="name" placeholder="Enter your name">
+                </form>
+              <button id="button1" class="btn" onclick="save()">Save</button>
+              <p id="xx"></p>
+                <h4 align="center">Guess the Correct Number</h4>
+
+                <div class="numbersetting">
+                  <div>
+                     <div class="numberborder n1color" id="s" onclick="one()">1</div>
+                     <div class="numberborder n2color" onclick="two()">2</div> 
+                     <div class="numberborder n3color" onclick="three()">3</div> 
+                     <div class="numberborder n4color" onclick="four()">4</div> 
+                     <div class="numberborder n5color" onclick="five()">5</div> 
+                  </div>
+
+                  <div class="numbersetting">
+                     <div class="numberborder n6color" onclick="six()">6</div> 
+                     <div class="numberborder n7color" onclick="seven()">7</div> 
+                     <div class="numberborder n8color" onclick="eight()">8</div> 
+                     <div class="numberborder n9color" onclick="nine()">9</div> 
+                     <div class="numberborder n10color"onclick="ten()">10</div> 
+                    <br><br>
+                    <p id="score1"></p>
+                  </div>
+                </div>             
+              </div>
+              <div class="name2inp">
+                <form >
+                  <input id="inputn2" type="text" name="name" placeholder="Enter your name">
+                </form>
+                <button id="button2" class="btn2" onclick="save()">Save</button>
+                <p id="yy"></p>
+                
+                <h4 align="center">Guess the Correct Number</h4>
+
+                <div class="numbersetting">
+                  <div>
+                     <div class="numberborder n1color" id="s" onclick="sone()">1</div>
+                     <div class="numberborder n2color" onclick="stwo()">2</div> 
+                     <div class="numberborder n3color" onclick="sthree()">3</div> 
+                     <div class="numberborder n4color" onclick="sfour()">4</div> 
+                     <div class="numberborder n5color" onclick="sfive()">5</div> 
+                  </div>
+
+                  <div class="numbersetting">
+                     <div class="numberborder n6color" onclick="ssix()">6</div> 
+                     <div class="numberborder n7color" onclick="sseven()">7</div> 
+                     <div class="numberborder n8color" onclick="seight()">8</div> 
+                     <div class="numberborder n9color" onclick="snine()">9</div> 
+                     <div class="numberborder n10color"onclick="sten()">10</div> 
+                    <br><br>
+                    <p id="score22"></p>
+                  </div>
+                
+                </div>  
+                
+              </div>    
+        </div>
+        <div style="margin-top:30px ;text-align:center">
+        
+        </div> 
+        
+        <script src="index.js"></script>
+    </body>
+</html>
